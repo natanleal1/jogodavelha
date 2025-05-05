@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bytesized&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: cursive, "Press Start 2P", "Roboto", sans-serif;
+    background-color: darkcyan;
+}
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 2rem;
+}
+button{
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    background-color: white;
+    color: blakc;
+}
