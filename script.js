@@ -83,7 +83,7 @@ function restartGame() {
     document.querySelector('body').style.backgroundColor = 'darkcyan'
     currentPlayer = "X";
     gameOptions = ["", "", "", "", "", "", "", "", ""];
-    gameStatus.textContent = `${currentPlayer}'s turn`;
+    gameStatus.textContent = `É a vez do jogador ${currentPlayer}`;
     cells.forEach(cell => cell.textContent = "");
     running = true;
 }
